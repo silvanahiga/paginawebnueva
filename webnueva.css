@@ -1,0 +1,448 @@
+body {
+    margin: 50px;
+    background: rgb(248, 227, 250);
+    
+    
+
+
+}
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background: firebrick;
+}
+
+
+.menu li {
+    width: 100%;
+    text-decoration: none;
+    height: 30px; 
+    list-style: none;
+    color: rgb(14, 13, 13);
+    overflow: hidden;
+    background: burlywood;
+    padding: 20px;
+    
+
+ 
+      
+
+}
+li a {
+    padding: 40px; 
+    
+    
+
+
+
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background: rosybrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    
+    
+}
+
+a {
+    color: rgb(14, 13, 13);
+    list-style: none;
+    text-decoration:none; 
+    
+}
+
+
+.imagen img {
+    width: 100%;
+    height: 50px;
+
+
+
+}
+.cuerpo {
+    width: 100%;
+    background: red;
+    position: relative;
+   
+    
+
+
+}
+
+.historia {
+    width: 48%;
+    height: 300px;
+    background: rgb(190, 105, 165);
+    float: left;
+    
+    margin-top: 5px;
+    padding: 1%;
+    text-align: justify;
+    margin-bottom: 5px;
+    
+
+}
+
+.amigos {
+    width: 48%;
+    height: 300px;
+    background: violet;
+    float: left;
+    
+    margin-top: 5px;
+    padding: 1%;
+    text-align: justify;
+    margin-bottom: 5px;
+ 
+}
+
+.puntos {
+    height: 0px;
+    border-style: dotted;
+    border-color:rgb(9, 9, 14);
+    width: 100%;
+    clear: both;
+
+
+}
+
+.boxes {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    align-content: space-around;
+    
+   
+  
+}
+
+
+.box1 {
+    width: 280px;
+    height: 150px;
+    background: rgb(5, 5, 5);
+    color: white;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box2 {
+    width: 280px;
+    height: 150px;
+    background: rgb(38, 78, 45);
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box3 {
+    width: 280px;
+    height: 150px;
+    background: rgb(5, 5, 5);
+    color: white;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box4 {
+    width: 280px;
+    height: 150px;
+    background: rgb(62, 17, 92);
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box5 {
+    width: 280px;
+    height: 150px;
+    background: rgb(5, 5, 5);
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box6 {
+    width: 280px;
+    height: 150px;
+    background: rgb(209, 21, 153);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box7 {
+    width: 280px;
+    height: 150px;
+    background: rgb(5, 5, 5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box8 {
+    width: 280px;
+    height: 150px;
+    background: rgb(71, 3, 88);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box9 {
+    width: 280px;
+    height: 150px;
+    background: rgb(5, 5, 5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box10 {
+    width: 280px;
+    height: 150px;
+    background: rgb(142, 212, 12);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.punto2 {
+    height: 0px;
+    border-style: dotted;
+    border-color:rgb(9, 9, 14);
+    width: 100%;
+    clear: both;
+    
+
+
+
+}
+
+
+.foot {
+    justify-content: space-between;
+    display: flex;
+    clear: both;
+    width: 100%;
+    height: 200px;
+}
+
+
+.uno {
+
+    width: 30%;
+    height: 200px;
+    float: left;
+
+    
+} 
+
+.dos {
+
+    width: 30%;
+    height: 200px;
+    float: left;
+    
+    
+}
+
+.tres {
+
+    width: 30%;
+    height: 200px;
+    float: left;
+   
+}
+
+.menubajo {
+    float: left;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    background: rgb(197, 51, 51); 
+    display: flex;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .menu {
+        height: 250px;
+        display: inline;
+
+        
+
+    }
+    .cuerpo .historia .amigos {
+        height: 700px;
+
+
+
+
+    }
+    .historia  {
+        height: 460px;
+
+
+    }
+    .amigos {
+        height: 460px;
+
+
+
+    }
+    body {
+        margin: 10px;
+    }
+
+    .box1 {
+        width: 100px;
+        height: 100px;
+        background: rgb(5, 73, 10);
+        
+    }
+    
+    .box2 {
+        width: 100px;
+        height: 100px;
+        background: rgb(16, 136, 52);
+        
+    }
+    
+    .box3 {
+        width: 100px;
+        height: 100px;
+        background: rgb(241, 245, 31);
+        
+    }
+    
+    .box4 {
+        width: 100px;
+        height: 100px;
+        background: rgb(100, 15, 117);
+    }
+    
+    .box5 {
+        width: 100px;
+        height: 100px;
+        background:  rgb(101, 207, 172);
+    }
+    
+    .box6 {
+        width: 100px;
+        height: 100px;
+        background: rgb(245, 24, 179);
+        
+    }
+    
+    .box7 {
+        width: 100px;
+        height: 100px;
+        background: rgb(233, 43, 59);
+    }
+    
+    .box8 {
+        width: 100px;
+        height: 100px;
+        background: rgb(7, 5, 126);
+    }
+    
+    .box9 {
+        width: 100px;
+        height: 100px;
+        background:  rgb(245, 39, 39);
+        
+    }
+    
+    .box10 {
+        width: 100px;
+        height: 100px;
+        background: rgb(73, 216, 44);   
+    }
+
+    div:nth-child(10) {
+        display: none;
+        }
+
+    
+
+       
+    .foot { 
+            background: red;
+            height: 500px;
+
+
+    }
+    .boxes {
+        flex-direction: row-reverse;
+    }
+
+    .uno {
+        height: 50px;
+        width: 100%;
+        float: left;
+
+
+    }
+    .dos{
+        height: 50px;
+        width: 100%;
+        float: left;
+
+
+    }
+    .tres {
+        height: 50px;
+        width: 100%;
+        float: left;
+
+
+    }
+
+
+
+
+
+}
